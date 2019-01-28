@@ -1,0 +1,8 @@
+Jan 28, 2019 6:29:34 PM DirWalker main
+INFO: This is the start of the program
+Jan 28, 2019 6:29:37 PM SimpleCsvParser readCsv
+INFO: Total number of skipped rows is 81834
+Jan 28, 2019 6:29:37 PM SimpleCsvParser readCsv
+INFO: Total number of valid rows is 201075
+Jan 28, 2019 6:29:37 PM DirWalker main
+INFO: Total execution time: 3176 ms
