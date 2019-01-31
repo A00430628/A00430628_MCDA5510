@@ -31,22 +31,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleCsvParser.java" partName="SimpleCsvParser.java" path="/home/kshitijnetwork/Documents/SMU_MCDA5510_Assignments/MCDA5510_Assignments/Assignment1/src/SimpleCsvParser.java" title="SimpleCsvParser.java" tooltip="Assignment1/src/SimpleCsvParser.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment1/src/SimpleCsvParser.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="555" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleLogging.java" partName="SimpleLogging.java" path="/home/kshitijnetwork/Documents/SMU_MCDA5510_Assignments/MCDA5510_Assignments/Assignment1/src/SimpleLogging.java" title="SimpleLogging.java" tooltip="Assignment1/src/SimpleLogging.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment1/src/SimpleLogging.java"/>
-<editorState selectionHorizontalPixel="281" selectionLength="13" selectionOffset="718" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="718" selectionTopPixel="0"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DirWalker.java" partName="DirWalker.java" path="/home/kshitijnetwork/Documents/SMU_MCDA5510_Assignments/MCDA5510_Assignments/Assignment1/src/DirWalker.java" title="DirWalker.java" tooltip="Assignment1/src/DirWalker.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment1/src/DirWalker.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="295" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="458" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -72,7 +67,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.ui.resourcePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -165,6 +160,11 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment1/src/SimpleCSVDatabase.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment1/src/DirWalker.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Assignment1/README.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment1/src/SimpleLogging.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment1/src/SimpleCsvParser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment1/src/SimpleCsvParser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment1/src/DirWalker.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment1/src/SimpleCsvParser.java"/>
 </editors>
 <item historyLabel="SimpleCsvParser.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -217,8 +217,38 @@
 <item historyLabel="README.txt" index="5">
 <position info="not_deleted" x="286" y="0"/>
 </item>
-<item active="true" historyLabel="DirWalker.java" index="4">
+<item historyLabel="DirWalker.java" index="4">
 <position info="not_deleted" x="295" y="0"/>
+</item>
+<item historyLabel="SimpleLogging.java" index="6">
+<position info="not_deleted" x="718" y="13"/>
+</item>
+<item historyLabel="SimpleCsvParser.java" index="7">
+<position info="not_deleted" x="555" y="0"/>
+</item>
+<item historyLabel="DirWalker.java" index="4">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="SimpleLogging.java" index="6">
+<position info="not_deleted" x="718" y="13"/>
+</item>
+<item historyLabel="SimpleCsvParser.java" index="8">
+<position info="not_deleted" x="555" y="0"/>
+</item>
+<item historyLabel="DirWalker.java" index="9">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="SimpleCsvParser.java" index="10">
+<position info="not_deleted" x="955" y="39"/>
+</item>
+<item historyLabel="DirWalker.java" index="9">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="SimpleCsvParser.java" index="10">
+<position info="not_deleted" x="879" y="0"/>
+</item>
+<item active="true" historyLabel="DirWalker.java" index="9">
+<position info="not_deleted" x="458" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -237,6 +267,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleCsvParser.java" tooltip="Assignment1/src/SimpleCsvParser.java">
+<persistable path="/Assignment1/src/SimpleCsvParser.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="README.md" tooltip="Assignment1/README.md">
 <persistable path="/Assignment1/README.md"/>
 </file>
@@ -251,9 +284,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleLogging.java" tooltip="Assignment1/src/SimpleLogging.java">
 <persistable path="/Assignment1/src/SimpleLogging.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleCsvParser.java" tooltip="Assignment1/src/SimpleCsvParser.java">
-<persistable path="/Assignment1/src/SimpleCsvParser.java"/>
 </file>
 </mruList>
 </workbench>
