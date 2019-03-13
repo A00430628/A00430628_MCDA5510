@@ -1,0 +1,213 @@
+Mar 13, 2019 8:20:12 PM com.mcds5510.view.View showView
+INFO: Welcome to Transactions please choose from the following options
+Mar 13, 2019 8:20:12 PM com.mcds5510.view.View showView
+INFO: Create a transaction (1)
+Update a transaction (2)
+View a transaction (3)
+Delete a transaction(4)
+Delete a transaction(4)
+Exit(5)
+Mar 13, 2019 8:20:14 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 1
+Mar 13, 2019 8:20:14 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please select the type of card from the choices listed below:
+Master Card (1)
+Visa (2)
+American Express (3)
+
+Mar 13, 2019 8:20:17 PM com.mcds5510.view.View checkCardType
+INFO: Card Type selected: 1
+Mar 13, 2019 8:20:17 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Card Type Selected MasterCard
+Mar 13, 2019 8:20:17 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the ID of the transaction!
+Mar 13, 2019 8:20:19 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: ID Entered 15
+Mar 13, 2019 8:20:19 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the name on card!
+Mar 13, 2019 8:20:23 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Name Entered Kshitij Parashar
+Mar 13, 2019 8:20:23 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Enter the Master Card number
+Mar 13, 2019 8:20:29 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Card Number Entered 5112345678901234
+Mar 13, 2019 8:20:29 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the unit price!
+Mar 13, 2019 8:20:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Unit Price Entered 2
+Mar 13, 2019 8:20:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the quantity!
+Mar 13, 2019 8:20:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Quantity Entered 2
+Mar 13, 2019 8:20:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the total price!
+Mar 13, 2019 8:20:33 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Total Price Entered 4
+Mar 13, 2019 8:20:33 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the expiry date!
+Mar 13, 2019 8:20:37 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Expiry Date Entered 12/2016
+Mar 13, 2019 8:20:37 PM com.mcds5510.view.View selectOption
+INFO: Transaction successful!
+Mar 13, 2019 8:20:37 PM com.mcds5510.view.View selectOption
+INFO: Please continue by choosing other option from the main menu!
+Mar 13, 2019 8:20:39 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 3
+Mar 13, 2019 8:20:39 PM com.mcds5510.dao.MySQLAccess viewTransaction
+INFO: Please enter the id of the transaction!
+Mar 13, 2019 8:20:42 PM com.mcds5510.dao.MySQLAccess viewTransaction
+INFO: Transaction ID entered: 15
+Mar 13, 2019 8:20:42 PM com.mcds5510.view.View selectOption
+INFO: Record viewed: [[NameOnCard: Kshitij Parashar,CardNumber: 5112345678901234,CardType: MasterCard,Expiry Date: 12/2016,Unit Price: 2,Quantity: 2,Total Price: 4,Created By: kshpa]]
+Mar 13, 2019 8:20:42 PM com.mcds5510.view.View selectOption
+INFO: Please continue by choosing other option from the main menu!
+Mar 13, 2019 8:20:55 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 2
+Mar 13, 2019 8:20:55 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Please enter the ID of the transaction!
+Mar 13, 2019 8:20:57 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Transaction ID Entered 15
+Mar 13, 2019 8:20:57 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Please select the type of card from the choices listed below:\nMaster Card (1)\nVisa (2)\nAmerican Express (3)\n
+Mar 13, 2019 8:20:58 PM com.mcds5510.view.View checkCardType
+INFO: Card Type selected: 1
+Mar 13, 2019 8:20:58 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Card Type Selected MasterCard
+Mar 13, 2019 8:20:58 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Please enter the name on card!
+Mar 13, 2019 8:21:04 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Name on card Entered Arpit Parashar
+Mar 13, 2019 8:21:04 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Enter the Master Card number
+Mar 13, 2019 8:21:10 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Card Number Entered 5112345678901234
+Mar 13, 2019 8:21:10 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Please enter the unit price!
+Mar 13, 2019 8:21:13 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Unit Price Entered 2
+Mar 13, 2019 8:21:13 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Please enter the quantity!
+Mar 13, 2019 8:21:14 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Quantity Entered 2
+Mar 13, 2019 8:21:14 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Please enter the total price!
+Mar 13, 2019 8:21:15 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Total Price Entered 4
+Mar 13, 2019 8:21:15 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Please enter the expiry date!
+Mar 13, 2019 8:21:18 PM com.mcds5510.dao.MySQLAccess updateTransaction
+INFO: Expiry Date Entered 12/2016
+Mar 13, 2019 8:21:18 PM com.mcds5510.view.View selectOption
+INFO: Updation successful!
+Mar 13, 2019 8:21:18 PM com.mcds5510.view.View selectOption
+INFO: Please continue by choosing other option from the main menu!
+Mar 13, 2019 8:21:21 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 3
+Mar 13, 2019 8:21:21 PM com.mcds5510.dao.MySQLAccess viewTransaction
+INFO: Please enter the id of the transaction!
+Mar 13, 2019 8:21:22 PM com.mcds5510.dao.MySQLAccess viewTransaction
+INFO: Transaction ID entered: 15
+Mar 13, 2019 8:21:22 PM com.mcds5510.view.View selectOption
+INFO: Record viewed: [[NameOnCard: Arpit Parashar,CardNumber: 5112345678901234,CardType: MasterCard,Expiry Date: 12/2016,Unit Price: 2,Quantity: 2,Total Price: 4,Created By: kshpa]]
+Mar 13, 2019 8:21:22 PM com.mcds5510.view.View selectOption
+INFO: Please continue by choosing other option from the main menu!
+Mar 13, 2019 8:21:28 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 1
+Mar 13, 2019 8:21:28 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please select the type of card from the choices listed below:
+Master Card (1)
+Visa (2)
+American Express (3)
+
+Mar 13, 2019 8:21:30 PM com.mcds5510.view.View checkCardType
+INFO: Card Type selected: 1
+Mar 13, 2019 8:21:30 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Card Type Selected MasterCard
+Mar 13, 2019 8:21:30 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the ID of the transaction!
+Mar 13, 2019 8:21:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: ID Entered 15
+Mar 13, 2019 8:21:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the name on card!
+Mar 13, 2019 8:21:35 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Name Entered Kshitij Parashar
+Mar 13, 2019 8:21:35 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Enter the Master Card number
+Mar 13, 2019 8:21:41 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Card Number Entered 5112345678901234
+Mar 13, 2019 8:21:41 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the unit price!
+Mar 13, 2019 8:21:44 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Unit Price Entered 2
+Mar 13, 2019 8:21:44 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the quantity!
+Mar 13, 2019 8:21:44 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Quantity Entered 2
+Mar 13, 2019 8:21:44 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the total price!
+Mar 13, 2019 8:21:48 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Total Price Entered 4
+Mar 13, 2019 8:21:48 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the expiry date!
+Mar 13, 2019 8:21:50 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Expiry Date Entered 12/2016
+Mar 13, 2019 8:21:50 PM com.mcds5510.view.View selectOption
+SEVERE: Please choose update option as card already exists!
+Mar 13, 2019 8:21:50 PM com.mcds5510.view.View selectOption
+INFO: Please continue by choosing other option from the main menu!
+Mar 13, 2019 8:21:52 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 4
+Mar 13, 2019 8:21:52 PM com.mcds5510.dao.MySQLAccess removeTransaction
+INFO: Please enter the id of the transaction!
+Mar 13, 2019 8:21:54 PM com.mcds5510.dao.MySQLAccess removeTransaction
+INFO: Transaction ID Entered: 15
+Mar 13, 2019 8:21:54 PM com.mcds5510.view.View selectOption
+INFO: Deletion successful!
+Mar 13, 2019 8:21:54 PM com.mcds5510.view.View selectOption
+INFO: Please continue by choosing other option from the main menu!
+Mar 13, 2019 8:21:57 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 1
+Mar 13, 2019 8:21:57 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please select the type of card from the choices listed below:
+Master Card (1)
+Visa (2)
+American Express (3)
+
+Mar 13, 2019 8:21:58 PM com.mcds5510.view.View checkCardType
+INFO: Card Type selected: 1
+Mar 13, 2019 8:21:58 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Card Type Selected MasterCard
+Mar 13, 2019 8:21:58 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the ID of the transaction!
+Mar 13, 2019 8:22:00 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: ID Entered 15
+Mar 13, 2019 8:22:00 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the name on card!
+Mar 13, 2019 8:22:09 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Name Entered Kshitij Parashar
+Mar 13, 2019 8:22:09 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Enter the Master Card number
+Mar 13, 2019 8:22:22 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Card Number Entered 5112345678901234
+Mar 13, 2019 8:22:22 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the unit price!
+Mar 13, 2019 8:22:26 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Unit Price Entered 4
+Mar 13, 2019 8:22:26 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the quantity!
+Mar 13, 2019 8:22:28 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Quantity Entered 2
+Mar 13, 2019 8:22:28 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the total price!
+Mar 13, 2019 8:22:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Total Price Entered 8
+Mar 13, 2019 8:22:31 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Please enter the expiry date!
+Mar 13, 2019 8:22:34 PM com.mcds5510.dao.MySQLAccess createTrxns
+INFO: Expiry Date Entered 12/2016
+Mar 13, 2019 8:22:34 PM com.mcds5510.view.View selectOption
+INFO: Transaction successful!
+Mar 13, 2019 8:22:34 PM com.mcds5510.view.View selectOption
+INFO: Please continue by choosing other option from the main menu!
+Mar 13, 2019 8:22:42 PM com.mcds5510.view.View checkOptions
+INFO: Option Selected: 5
