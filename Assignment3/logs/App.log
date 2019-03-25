@@ -1,0 +1,9 @@
+2019-03-25 19:48:04,168 [1] INFO  InClass.Form1 Start of the program
+2019-03-25 19:48:04,180 [1] ERROR InClass.Form1 Please enter a valid postal code for  
+2019-03-25 19:48:04,183 [1] INFO  InClass.Form1 Current Primary Key is, 1
+2019-03-25 19:48:06,539 [1] ERROR InClass.Form1 All fields are valid
+2019-03-25 19:48:06,548 [1] INFO  InClass.Form1 Current Primary Key is, 2
+2019-03-25 19:48:07,799 [1] ERROR InClass.Form1 Please enter a valid phone number for  
+2019-03-25 19:48:07,808 [1] INFO  InClass.Form1 Current Primary Key is, 3
+2019-03-25 19:48:09,041 [1] ERROR InClass.Form1 Please enter a valid email for  
+2019-03-25 19:48:09,045 [1] INFO  InClass.Form1 Current Primary Key is, 4
